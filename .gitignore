@@ -1,0 +1,25 @@
+﻿# Environments
+venv/
+
+# Data - Ignore all FITS files and data folders
+data/raw/
+data/clean/
+data/noisy/
+data/processed/
+*.fits
+*.png
+*.pdf
+*.jpg
+
+# Keep the metadata!
+data/dataset_inventory.csv
+
+physics_engine/*.dll
+physics_engine/*.o
+physics_engine/*.mod
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+checkpoints/
