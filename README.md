@@ -48,6 +48,7 @@ The pipeline consists of a hybrid software stack:
 Navigate to the `physics_engine` folder and compile the shared library:
 ```powershell
 gfortran -O3 -fopenmp -shared -o profile.dll profile.f90
+````
 
 ### 3. Prepare Data
 Ensure your clean FITS files are in `data/clean`, then run:
